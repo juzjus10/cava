@@ -155,13 +155,7 @@ class DataTableEndpoints:
   
     @staticmethod
     def update_isa(isa_id):
-        """
-        Creates a request configuration for updating an ISA
-        Args:
-            isa_id (str): The ID of the ISA to update
-        Returns:
-            dict: Request configuration including URL, method, data, and headers
-        """
+     
         url = f'https://sped.fusionpl.us/isas/isa/{isa_id}'
         data = {
             "id": isa_id,
