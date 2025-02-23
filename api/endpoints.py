@@ -1,8 +1,9 @@
+import json
 import scrapy
 
 class DataTableEndpoints:
     @staticmethod
-    def get_isas_endpoint(display_start=0, display_length=10, search_term=None):
+    def get_isas_endpoint(display_start=0, display_length=1, search_term=None):
      
         base_url = 'https://sped.fusionpl.us/isas/_retrieve_server_data/-1/-1'
         
@@ -150,8 +151,36 @@ class DataTableEndpoints:
         query_string = urllib.parse.urlencode(params)
         
         return f"{base_url}?{query_string}"
-
-# Example usage:
+    
+  
+    @staticmethod
+    def update_isa(isa_id):
+        """
+        Creates a request configuration for updating an ISA
+        Args:
+            isa_id (str): The ID of the ISA to update
+        Returns:
+            dict: Request configuration including URL, method, data, and headers
+        """
+        url = f'https://sped.fusionpl.us/isas/isa/{isa_id}'
+        data = {
+            "id": isa_id,
+            "name": "Laila Windemuth", 
+            "title": "Psych Lead"
+        }
+        headers = {
+            'X-Requested-With': 'XMLHttpRequest',
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+        }
+        
+        return {
+            'url': url,
+            'method': 'PUT',
+            'data': data,
+            'headers': headers
+        }
+    
 def get_all_isas(spider):
     """Example function to fetch all ISAs using pagination"""
     url = DataTableEndpoints.get_isas_endpoint(display_start=0, display_length=100)
