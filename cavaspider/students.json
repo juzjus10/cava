@@ -1,0 +1,222 @@
+[
+  {
+    "student_name": "Ezequiel Silva-Ponce",
+    "iep_due_date": "01/30/2026",
+    "student_id": "5392795"
+  },
+  {
+    "student_name": "Serenity Basulto",
+    "iep_due_date": "",
+    "student_id": "5692489"
+  },
+  {
+    "student_name": "Cooper Luna",
+    "iep_due_date": "05/01/2025",
+    "student_id": "6018108"
+  },
+  {
+    "student_name": "Joshua Rikard Jr.",
+    "iep_due_date": "04/25/2025",
+    "student_id": "2440819"
+  },
+  {
+    "student_name": "Crystal Hernandez",
+    "iep_due_date": "04/11/2025",
+    "student_id": "4011236"
+  },
+  {
+    "student_name": "Cooper Luna",
+    "iep_due_date": "05/01/2025",
+    "student_id": "6018108"
+  },
+  {
+    "student_name": "Sophia Sanchez",
+    "iep_due_date": "02/28/2025",
+    "student_id": "6080897"
+  },
+  {
+    "student_name": "Sophia Sanchez",
+    "iep_due_date": "02/28/2025",
+    "student_id": "6080897"
+  },
+  {
+    "student_name": "Donald Brown",
+    "iep_due_date": "10/07/2025",
+    "student_id": "5580112"
+  },
+  {
+    "student_name": "Ridham Soni",
+    "iep_due_date": "04/02/2025",
+    "student_id": "5548055"
+  },
+  {
+    "student_id": "6018108",
+    "first_name": "Cooper",
+    "last_name": "Luna",
+    "gender": "Male",
+    "birthday": "12/5/2014",
+    "ethnicity": "White",
+    "race": "White or Caucasian",
+    "grade": "4th Grade",
+    "address": "8865 Indiana Ave Apt C, Riverside, 92503-5788, CA",
+    "phone": "9514462418",
+    "school": "CAVA @ San Diego",
+    "primary_teacher": "Lindsay Bills / lbills@caliva.org",
+    "primary_disability": null,
+    "secondary_disability": null,
+    "notes": "2/4/2025 NB input signed IEP (Amend: interim) 1/29/2025 \n1/30/2025 JC input signed DOR IEP (PR) 5/1/2024"
+  },
+  {
+    "student_id": "5692489",
+    "first_name": "Serenity",
+    "last_name": "Basulto",
+    "gender": "Female",
+    "birthday": "12/17/2015",
+    "ethnicity": "White",
+    "race": "White or Caucasian",
+    "grade": "3rd Grade",
+    "address": "600 Hosking Ave Apt 47D, Bakersfield, 93307-5733, CA",
+    "phone": "8053322326",
+    "school": "CAVA @ Maricopa",
+    "primary_teacher": "Kaisha Kaminski / kkaminski@caliva.org",
+    "primary_disability": null,
+    "secondary_disability": null,
+    "notes": null
+  },
+  {
+    "student_id": "5392795",
+    "first_name": "Ezequiel",
+    "last_name": "Silva-Ponce",
+    "gender": "Male",
+    "birthday": "4/21/2018",
+    "ethnicity": "White",
+    "race": "White or Caucasian",
+    "grade": "1st Grade",
+    "address": "9673 Poplar Way, Live Oak, 95953-9427, CA",
+    "phone": "5305658868",
+    "school": "CAVA @ Sutter",
+    "primary_teacher": "Taylor Hickam / thickam@caliva.org",
+    "primary_disability": null,
+    "secondary_disability": null,
+    "notes": "2/14/2025 NB input signed IEP (initial) 1/31/2025 \n7/12/2024 NB input Unsigned DOR IEP (PR) 1/17/2024 possible Alt. Placement?**\n7/12/2024 RC input signed Interim IP 7/11/2024"
+  },
+  {
+    "student_id": "6018108",
+    "first_name": "Cooper",
+    "last_name": "Luna",
+    "gender": "Male",
+    "birthday": "12/5/2014",
+    "ethnicity": "White",
+    "race": "White or Caucasian",
+    "grade": "4th Grade",
+    "address": "8865 Indiana Ave Apt C, Riverside, 92503-5788, CA",
+    "phone": "9514462418",
+    "school": "CAVA @ San Diego",
+    "primary_teacher": "Lindsay Bills / lbills@caliva.org",
+    "primary_disability": null,
+    "secondary_disability": null,
+    "notes": "2/4/2025 NB input signed IEP (Amend: interim) 1/29/2025 \n1/30/2025 JC input signed DOR IEP (PR) 5/1/2024"
+  },
+  {
+    "student_id": "2440819",
+    "first_name": "Joshua",
+    "last_name": "Rikard Jr.",
+    "gender": "Male",
+    "birthday": "11/21/2010",
+    "ethnicity": "White",
+    "race": "White or Caucasian",
+    "grade": "8th Grade",
+    "address": "899 N Beale Rd # 137, Marysville, 95901-6119, CA",
+    "phone": "5309300256",
+    "school": "CAVA @ Sutter",
+    "primary_teacher": "Sarah Lowery / slowery@caliva.org",
+    "primary_disability": null,
+    "secondary_disability": null,
+    "notes": "1/7/2024 NB reviewed/noted signed IEP (Amend) 12/17/2024 \n11/29/2024 BC reviewed/noted signed IEP (Amend) 11/18/2024\n5/24/2024 NB input signed IEP (PR) 4/26/2024\n10/9/2023 BC input signed IEP (Amend) 9/22/2023\n8/31/2023 RC reviewed/noted signed IEP (Amend) 7/1/2023\n6/19/2023 PM input signed IEP (Amend) 6/1/2023\n6/1/2023 CC input signed IEP (PR) 5/18/2023\n3/29/2023 PM input signed IEP (Amend) 3/17/2023\n6/23/2022 CC input signed IEP (PR EE) 5/25/2022\n5/10/2022 BC input signed IEP (Amend) 5/5/2022\n11/2/21 AJ confirmed MH services IEP 10/12/21\n11/2/2021 BC input signed IEP (PlanReview) 10/12/2021\n8/13/21-AJ confirmed IEP 1/8/21 and 5/10/21, MH services ok to assign\n5/12/2021 RC input signed IEP (Amend) 5/10/2021 for IEP 10/26/2020\n1/11/2021 CC reviewed/noted signed IEP (Amend) 1/8/2020\n10/30/2020 JG input signed (Ann) 10/26/2020\n4/20/2020 Ag input signed (ANN) 10/30/19\n7/25/19 CC input signed IEP (Tri) 5/30/19\n4/10/19 Ag cked/reviewed amend 1/10/19 for IEP 11/14/18\n1/1/19 AG input signed IEP (ANN/30Day) 11/14/2018\n12/20/18 KM input signed IEP (Ann/30D) 11/14/18\n10/22/18 CP input Annual DOR IEP 11/2/17"
+  },
+  {
+    "student_id": "6080897",
+    "first_name": "Sophia",
+    "last_name": "Sanchez",
+    "gender": "Female",
+    "birthday": "11/21/2008",
+    "ethnicity": "White",
+    "race": "",
+    "grade": "10th Grade",
+    "address": "528 Hibiscus Dr Apt B110, Redlands, 92373-6195, CA",
+    "phone": "7605379785",
+    "school": "CAVA @ Los Angeles",
+    "primary_teacher": "Shelby Noble / snoble@caliva.org",
+    "primary_disability": null,
+    "secondary_disability": null,
+    "notes": "12/19/2024 NB input reviewed/noted IEP (Amend: correction) 12/12/2024 & signed IEP (Amend: correction) 12/9/2024 & signed IEP (Amend: correction) 12/6/2024 & input signed IEP (Amend: 30 day) 10/28/2024 \n10/22/2024 NB input signed DOR IEP (PR/Tran) 3/1/2024 \n10/16/2024 NB input signed DOR IEP (Ann) 3/6/2023"
+  },
+  {
+    "student_id": "4011236",
+    "first_name": "Crystal",
+    "last_name": "Hernandez",
+    "gender": "Female",
+    "birthday": "10/8/2008",
+    "ethnicity": "Other Pacific Islander",
+    "race": "Native Hawaiian or Other Pacific Islander",
+    "grade": "10th Grade",
+    "address": "696 Nantucket St, San Jacinto, 92583-6557, CA",
+    "phone": "9512589130",
+    "school": "CAVA @ San Diego",
+    "primary_teacher": "Bethany Miller / bemiller@caliva.org",
+    "primary_disability": null,
+    "secondary_disability": null,
+    "notes": "11/15/2024 BC input signed IEP (PR/TR) 4/12/2024\n8/10/2023 BC reviewed/noted singed IEP (Amend) 7/1/2023\n5/26/2023 CC input signed IEP (PR) 4/13/2023\n5/3/2022 CC reviewed/noted signed IEP (Amend) 5/2/2022\n5/3/2022 CC input signed IEP (PR EE) 4/21/2022\n11/9/21 AJ confirmed services on IEP 9/7/21\n11/8/2021 CC input signed IEP (Amend 30day) 9/7/2021\n8/10/2021 CC updated Signed DOR IEP (Ann) 4/29/2021 (added older goals which were included & missing testing supports)\n8/6/2021 BC input unsigned DOR IEP (Ann) 4/29/2021"
+  },
+  {
+    "student_id": "5580112",
+    "first_name": "Donald",
+    "last_name": "Brown",
+    "gender": "Male",
+    "birthday": "6/8/2009",
+    "ethnicity": "White",
+    "race": "White or Caucasian",
+    "grade": "10th Grade",
+    "address": "1812 Patricia CT, Los Banos, 93635, CA",
+    "phone": "2533814944",
+    "school": "CAVA@Fresno",
+    "primary_teacher": "Lindsey Robles-Whitehead / lrobles-whitehead@caliva.org",
+    "primary_disability": null,
+    "secondary_disability": null,
+    "notes": "2/4/2025 NB input signed IEP (Amend: correction) 12/3/2024\n2/4/2025 NB input signed IEP (PR/reeval/Tran/30 day) 10/8/2024, no changes to services \n3/15/2024 NB input signed IEP (Amend) 3/11/2024 \n2/20/2024 NB input signed IEP (PR/ 30 day) 10/18/2023, w/ exception of alternative placement\n9/27/2023 CC input signed DOR IEP (Amend continuation) 9/29/2022 & DOR IEP (Amend) 5/10/2023"
+  },
+  {
+    "student_id": "6080897",
+    "first_name": "Sophia",
+    "last_name": "Sanchez",
+    "gender": "Female",
+    "birthday": "11/21/2008",
+    "ethnicity": "White",
+    "race": "",
+    "grade": "10th Grade",
+    "address": "528 Hibiscus Dr Apt B110, Redlands, 92373-6195, CA",
+    "phone": "7605379785",
+    "school": "CAVA @ Los Angeles",
+    "primary_teacher": "Shelby Noble / snoble@caliva.org",
+    "primary_disability": null,
+    "secondary_disability": null,
+    "notes": "12/19/2024 NB input reviewed/noted IEP (Amend: correction) 12/12/2024 & signed IEP (Amend: correction) 12/9/2024 & signed IEP (Amend: correction) 12/6/2024 & input signed IEP (Amend: 30 day) 10/28/2024 \n10/22/2024 NB input signed DOR IEP (PR/Tran) 3/1/2024 \n10/16/2024 NB input signed DOR IEP (Ann) 3/6/2023"
+  },
+  {
+    "student_id": "5548055",
+    "first_name": "Ridham",
+    "last_name": "Soni",
+    "gender": "Male",
+    "birthday": "12/29/2016",
+    "ethnicity": "Asian Indian",
+    "race": "Asian",
+    "grade": "2nd Grade",
+    "address": "45273 Tom Blalock St Unit 101, Fremont, 94539-8467, CA",
+    "phone": "4087188601",
+    "school": "CAVA @ San Joaquin",
+    "primary_teacher": "Jennifer Fields / jefields@caliva.org",
+    "primary_disability": null,
+    "secondary_disability": null,
+    "notes": "12/5/2024 NB reactivated signed IEP (PR/reevaluation) 4/3/2024 for return student \n4/24/2024 NB input signed IEP (PR/reevaluation) 4/3/2024\n3/18/2024 BC input signed IEP (Amend) 3/11/2024\n2/13/2024 NB input signed IEP (Amend) 1/25/2024\n11/28/2023 BC input signed IEP (Amend) 11/10/2023\n9/18/2023 RC input signed Interim IP 9/13/2023\n9/8/2023 PM input signed DOR IEP (PR) 4/5/2023, signed w/ exception"
+  }
+]
