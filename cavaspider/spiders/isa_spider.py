@@ -173,7 +173,9 @@ class MergedSpider(BaseAuthenticatedSpider):
         item['student_name'] = response.css('select#student-list-view option::text').get()
         item['iep_due_date'] = response.css('input#iep-due-date::attr(value)').get()
         item['student_id'] = response.css('input#student-id::attr(value)').get()
-   
+        item['iep_service'] =  response.css('select#service-list-view option::text').get()
+        item['mode'] = response.css('select#delivery-mode option::text').get()
+        
         if item['student_id']:
             yield item
             # After getting ISA data, fetch student details

@@ -50,7 +50,9 @@ class AirtablePipeline:
             #'secondary_disability': 'Suspected Eligibility',
             'notes': 'Notes',
             'iep_due_date': 'Due Date / IEP Date',
-            'student_name': 'Student Name'
+            'iep_service': 'Evaluation Type',
+            'student_name': 'Student Name',
+            'mode': 'Mode'
         }
     
     def process_item(self, item, spider):

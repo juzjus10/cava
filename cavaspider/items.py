@@ -28,4 +28,6 @@ class CavaItem(scrapy.Item):
     # ISA fields
     iep_due_date = scrapy.Field()
     student_name = scrapy.Field()
+    iep_service = scrapy.Field()
+    mode = scrapy.Field()
 
