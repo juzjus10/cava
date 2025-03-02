@@ -15,16 +15,7 @@ class BaseAuthenticatedSpider(scrapy.Spider):
         credentials = get_credentials()
         self.username = credentials['username']
         self.password = credentials['password']
-        
-        # Initialize Airtable connection
-        self.airtable_api_key = os.getenv('AIRTABLE_API_KEY')
-        self.base_id = os.getenv('AIRTABLE_BASE_ID')
-        self.table_name = os.getenv('AIRTABLE_TABLE_NAME')
-        
-        if not all([self.airtable_api_key, self.base_id, self.table_name]):
-            raise ValueError("Missing required Airtable environment variables")
-            
-        self.airtable = Api(self.airtable_api_key).table(self.base_id, self.table_name)
+       
 
     def start_requests(self):
         """Start by checking if we're already logged in"""
@@ -75,19 +66,4 @@ class BaseAuthenticatedSpider(scrapy.Spider):
         to start their specific scraping tasks after authentication
         """
         raise NotImplementedError("Subclasses must implement authenticated_requests()")
-
-    def send_to_airtable(self, data):
-        """
-        Send scraped data to Airtable
-        Args:
-            data (dict): Dictionary containing student data to be inserted
-        Returns:
-            dict: Response from Airtable
-        """
-        try:
-            response = self.airtable.create(data)
-            self.logger.info(f"Successfully sent data to Airtable: {response['id']}")
-            return response
-        except Exception as e:
-            self.logger.error(f"Failed to send data to Airtable: {str(e)}")
-            raise
+ 

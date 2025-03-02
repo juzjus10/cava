@@ -50,7 +50,7 @@ class AirtablePipeline:
             #'secondary_disability': 'Suspected Eligibility',
             'notes': 'Notes',
             'iep_due_date': 'Due Date / IEP Date',
-            'iep_service': 'Evaluation Type',
+            #'iep_service': 'Evaluation Type',
             'student_name': 'Student Name',
             'mode': 'Mode'
         }

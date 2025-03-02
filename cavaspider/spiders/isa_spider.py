@@ -174,7 +174,7 @@ class MergedSpider(BaseAuthenticatedSpider):
         item['iep_due_date'] = response.css('input#iep-due-date::attr(value)').get()
         item['student_id'] = response.css('input#student-id::attr(value)').get()
         item['iep_service'] =  response.css('select#service-list-view option::text').get()
-        item['mode'] = response.css('select#delivery-mode option::text').get()
+        item['mode'] = response.css('select#delivery-mode option::text').get() 
         
         if item['student_id']:
             yield item
@@ -250,6 +250,13 @@ class MergedSpider(BaseAuthenticatedSpider):
         item['secondary_disability'] = response.css('#s2id_secondary-disability .select2-choice span::text').get()
         item['notes'] = response.css('textarea#notes::text').get()
 
+        lc_info = response.xpath('//label[contains(text(), "LC Name / Email Address")]/../../div[2]/input/@value').get()
+        if lc_info:
+            lc_info = lc_info.strip()
+            parts = [part.strip() for part in lc_info.split('/')]
+            if len(parts) >= 2:
+                item['parent_name'] = parts[0]
+                item['parent_email'] = parts[1]
 
         
         # Clean the data

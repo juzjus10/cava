@@ -24,10 +24,14 @@ class CavaItem(scrapy.Item):
     primary_disability = scrapy.Field()
     secondary_disability = scrapy.Field()
     notes = scrapy.Field()
+    parent_name = scrapy.Field()
+    parent_email = scrapy.Field()
+   
     
     # ISA fields
     iep_due_date = scrapy.Field()
     student_name = scrapy.Field()
     iep_service = scrapy.Field()
-    mode = scrapy.Field()
+    mode = scrapy.Field() 
+    
 
